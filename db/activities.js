@@ -1,7 +1,6 @@
 const client = require('./client');
 const util = require('./util');
 
-// database functions
 async function getAllActivities(){
   try {
     const {rows} = await client.query(`
